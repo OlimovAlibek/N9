@@ -1,0 +1,253 @@
+.equipment{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #F4F6F8;
+    padding: 50px;
+
+}
+
+
+
+
+.e_card1 h2{
+font-size: 44px;
+font-weight: 700;
+line-height: 54px;
+text-align: left;
+color: $zero;
+}
+.e_card1 p{
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+color: $zero;
+}
+
+.e_inside{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.e_inside p{
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+color: $zero;
+}
+
+// 
+.e_cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    
+}
+.e_card1{
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    gap: 30px;
+    width: 628px;
+height: 516px;
+border-radius: 20px;
+box-shadow: 0px 2px 16px 0px #00000014;
+
+}
+
+.e_card2{
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    gap: 30px;
+    width: 628px;
+height: 516px;
+border-radius: 20px;
+box-shadow: 0px 2px 16px 0px #00000014;
+
+}
+.e_card2 h2{
+font-size: 44px;
+font-weight: 700;
+line-height: 54px;
+text-align: left;
+color: $zero;
+}
+.e_card2 h3{
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: $zero;
+}
+.e_card2 .redcolor{
+    color: $ffive;
+}
+.e_card2 h4{
+font-size: 24px;
+font-weight: 800;
+line-height: 28px;
+text-align: left;
+color: $zero;
+}
+
+.e_button{
+    width: 235px;
+height: 56px;
+border-radius: 8px;
+color: $f;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+background-color: $ffive;
+border: none;
+transition: 0.3s linear;
+}
+
+.e_button:hover{
+color: $ffive;
+background-color: $f;
+border: 2px solid $ffive;
+}
+
+@media(max-width:1200px){
+    .e_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+
+}
+
+@media(max-width:700px){
+    .e_card1{
+    border: 1px solid red;
+
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+height: 100%;
+border-radius: 20px;
+box-shadow: 0px 2px 16px 0px #00000014;
+
+}
+.equipment{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #F4F6F8;
+    padding: 10px;
+
+}
+
+.e_card2{
+    border: 1px solid red;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+height: 100%;
+border-radius: 20px;
+box-shadow: 0px 2px 16px 0px #00000014;
+
+}
+
+}
+
+
+
+
+
+
+@media(max-width:550px){
+    .e_card2 h2{
+font-size: 34px;
+font-weight: 700;
+line-height: 44px;
+text-align: left;
+color: $zero;
+}
+
+.e_card1 h2{
+font-size: 34px;
+font-weight: 700;
+line-height: 44px;
+text-align: left;
+color: $zero;
+}
+    .e_card1{
+    border: 1px solid red;
+
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+height: 100%;
+border-radius: 20px;
+box-shadow: 0px 2px 16px 0px #00000014;
+
+}
+
+.e_card2{
+    border: 1px solid red;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+height: 100%;
+border-radius: 20px;
+box-shadow: 0px 2px 16px 0px #00000014;
+
+}
+
+.e_button{
+    width: 90%;
+height: 56px;
+border-radius: 8px;
+color: $f;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+background-color: $ffive;
+border: none;
+transition: 0.3s linear;
+}
+
+}
+
+
+
+
+
+@media(max-width:400px){
+        .e_card2 h2{
+font-size: 24px;
+font-weight: 700;
+line-height: 44px;
+text-align: left;
+color: $zero;
+}
+
+.e_card1 h2{
+font-size: 24px;
+font-weight: 700;
+line-height: 44px;
+text-align: left;
+color: $zero;
+}
+}
+
+
+// @media(max-width:500px){
+//  .equipment{
+//     display: none;
+//  }   
+// }

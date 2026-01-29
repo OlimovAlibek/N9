@@ -1,0 +1,37 @@
+.client{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.client_title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.client_title h2{
+font-size: 44px;
+font-weight: 700;
+line-height: 54px;
+text-align: center;
+color: $zero;
+}
+
+.client_divs{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.client_div img{
+    width: 100%;
+}
+
+@media(max-width:1200px){
+  .client_divs{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+}

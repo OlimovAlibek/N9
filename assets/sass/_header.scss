@@ -1,0 +1,94 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_links .links{
+    display: flex;
+    gap: 30px;
+}
+
+.navbar_items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar_items2{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.links li a{
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+letter-spacing: 0.02em;
+color: $zero;
+transform: 0.3s linear;
+}
+
+.links li a:hover{
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+letter-spacing: 0.02em;
+color: $ffive;
+text-decoration: underline;
+}
+
+.navbar_items2 a{
+font-size: 16px;
+font-weight: 500;
+line-height: 19.36px;
+color: $zero;
+transform: 0.3s linear;
+}
+
+.navbar_items2 a:hover{
+font-size: 16px;
+font-weight: 500;
+line-height: 19.36px;
+color: $ffive;
+}
+
+// *******************
+.checkbox{
+    display: none;
+}
+@media(min-width:1050px){
+    .menu{
+        display: none;
+    }
+}
+
+@media(max-width:1050px){
+    .links{
+        top: 0;
+        left: -100%;
+        position: fixed;
+        width: 50%;
+        background-color: #EDEDED;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transition: 0.5s linear;
+        z-index: 999;
+    }
+
+        .navbar1{
+        display: none;
+    }
+    #check:checked ~ .links{
+        left: 0;
+    }
+
+}
+
+@media(max-width:500px){
+    .navbar_items2{
+        display: none;
+    }
+}
